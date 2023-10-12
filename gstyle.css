@@ -1,0 +1,80 @@
+body{
+    overflow-x: hidden;
+}
+
+.herosection-left{
+    animation-name: heroleft;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-duration: 2s;
+}
+.product-right{
+    animation-name: proright ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-duration: 2s;
+}
+
+.box1 img  {
+    width: 50px;
+    height: 50px;
+}
+
+.box1 {
+  margin-right: 01px;
+    gap:23px;
+    padding: 5px;
+}
+.bestseller img{
+     width: 250px;
+}
+
+.footer img{
+    margin-right: 20px;
+    width: 30px;
+}
+
+
+
+
+@keyframes heroleft {
+    0%{
+        margin-left: -200%;
+    }
+    100%{
+        margin: 0%;
+    }
+}
+@keyframes proright {
+    0%{
+        margin-right: -200%;
+    }
+    100%{
+        margin: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
