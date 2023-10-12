@@ -1,4 +1,4 @@
-# Greeny 
+# Greendan
 
 A web project focused on sustainability and environmental awareness, created using HTML, CSS, and Bootstrap.
 
